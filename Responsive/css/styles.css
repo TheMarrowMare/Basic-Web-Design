@@ -1,0 +1,132 @@
+/* Global Styles */
+
+body {
+    background-color: #131A40;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+
+}
+
+
+#container {
+    background-color: #23468C;
+    border: 2px outset black;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px){
+    nav {
+        background-color: #F2DFA7;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+        height: 30px;
+        background-color: #77C3F2;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        background-color: black;
+    }
+
+    main {
+        padding: 20px;
+
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        color: #131A40;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    footer {
+        text-align: center;
+        padding: 4px;
+    }
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px){
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 125px;
+        height: 40px;
+        line-height: 40px;
+        margin: 5px;
+    }
+
+    .keyblade_size {
+        width: 50%;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px black;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px){
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px outset black;
+        border-radius: 20px;
+    }
+
+    #banner {
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 0;
+        border: 2px inset grey;
+        border-radius: 20px;
+    }
+
+    nav li a {
+        background-color: #F2DFA7;
+        color: black;
+    }
+
+    hr {
+        display: none;
+    }
+    
+    nav li a:hover {
+        background-color: #F2DFA7;
+        color: olivedrab;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+}
