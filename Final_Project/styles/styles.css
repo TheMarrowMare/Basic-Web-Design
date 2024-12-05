@@ -87,9 +87,9 @@ ul {
 
     video {
         display: block;
-        margin: o auto;
-        height: auto;
-        width: auto;
+        margin: 0 auto;
+        height: 120px;
+        width: 240px;
     }
 }
 
@@ -111,6 +111,8 @@ ul {
     video {
         display: block;
         margin: 0 auto;
+        height: 240px;
+        width: 360px;
     }
 
     .keyblade_size {
@@ -162,6 +164,13 @@ ul {
     nav li a:hover {
         background-color: darkgray;
         color: maroon;
+    }
+
+    video {
+        display: block;
+        margin: 0 auto;
+        height: 360px;
+        width: 720px;
     }
 
     #multi_col {
